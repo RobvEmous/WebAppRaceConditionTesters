@@ -1,0 +1,52 @@
+Test:	RTW2_N
+
+Results:	15
+
+Success codes:
+min:	9
+max:	21
+mean:	15.4
+median:	16
+stdev:	3.737837419073838
+
+Vouchers used:
+min:	7
+max:	19
+mean:	13.066666666666666
+median:	14
+stdev:	3.750555514409388
+
+Ratio (successes / used vouchers):
+min:	1.0
+max:	1.6
+mean:	1.2042243457723334
+median:	1.1818181818181819
+stdev:	0.17208680551025707
+
+Local times (milisec):
+min:	0.0
+max:	9.812
+mean:	0.21472222222222223
+median:	0.086
+stdev:	0.6501443598473245
+
+Web server times (milisec):
+min:	0.0
+max:	47.141
+mean:	5.4255102040816325
+median:	3.145
+stdev:	6.78113948784056
+
+App server times (milisec):
+min:	0.0
+max:	46.077
+mean:	5.080518055555555
+median:	3.18525
+stdev:	6.152664029608067
+
+Diff between web and app server (milisec):
+min:	1.285
+max:	8.38725
+mean:	4.192566666666667
+median:	3.40925
+stdev:	2.455893824533331

@@ -1,0 +1,52 @@
+Test:	SR2_r
+
+Results:	25
+
+Success codes:
+min:	10
+max:	16
+mean:	13.08
+median:	13
+stdev:	1.6051998837112675
+
+Vouchers used:
+min:	3
+max:	10
+mean:	6.76
+median:	6
+stdev:	1.7625738755203049
+
+Ratio (successes / used vouchers):
+min:	1.3333333333333333
+max:	3.3333333333333335
+mean:	2.0596190476190475
+median:	1.8571428571428572
+stdev:	0.5787800699424263
+
+Local times (milisec):
+min:	0.0
+max:	28.611
+mean:	0.7034083333333333
+median:	0.032
+stdev:	1.96861288629601
+
+Web server times (milisec):
+min:	0.014
+max:	35531.172
+mean:	66.47265888689407
+median:	1.228
+stdev:	1505.485066979025
+
+App server times (milisec):
+min:	0.114
+max:	17.71825
+mean:	1.5574379166666668
+median:	1.153375
+stdev:	1.4505087350882928
+
+Diff between web and app server (milisec):
+min:	0.97875
+max:	5515.498
+mean:	223.44145999999998
+median:	3.04625
+stdev:	1102.5124183471992

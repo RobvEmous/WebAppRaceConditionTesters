@@ -1,0 +1,1223 @@
+/Users/rvanemous/RC_tools_sec_tester/bin/python "/Users/rvanemous/Documents/Afstuderen/Tools/CompuRacer/Tool comparison/process_test_results.py"
+
+---------------------------
+------------ f ------------
+---------------------------
+
+
+------- Success codes -------
+
+CR	norm		0.9291 (11.8000, 1.9732)	-> Distribution assumed normal!
+CR+	norm		0.8758 (12.7333, 2.0155)	-> Distribution assumed normal!
+RTW	norm		0.2969 (11.6000, 2.1229)	-> Distribution assumed normal!
+SR	norm		0.7136 (12.4000, 2.8000)	-> Distribution assumed normal!
+TI	norm		0.7691 (11.8667, 3.5938)	-> Distribution assumed normal!
+
+Best distributions:
+['norm']
+
+Test mean and variance equality:
+	All mean and vars match!
+
+Test variance results:
+CR ->	('RTW', 0.8975939972579047)
+		('CR+', 0.8893319675817306)
+		('SR', 0.4660341167678447)
+		('TI', 0.07724949205547303)
+CR+ ->	('RTW', 1.0)
+		('SR', 0.5312479870070959)
+		('TI', 0.09302626003619621)
+RTW ->	('SR', 0.5496253349610227)
+		('TI', 0.10540208676341292)
+SR ->	('TI', 0.32938598615561676)
+
+Test mean results:
+CR ->	('TI', 0.951917273931953, 'tt')
+		('RTW', 0.7981418601328425, 'tt')
+		('SR', 0.5175611556265474, 'tt')
+		('CR+', 0.2259497333990539, 'tt')
+CR+ ->	('SR', 0.720426809600675, 'tt')
+		('TI', 0.43789192385026154, 'tt')
+		('RTW', 0.15854627315872774, 'tt')
+RTW ->	('TI', 0.8128112108426527, 'tt')
+		('SR', 0.40150756719373826, 'tt')
+SR ->	('TI', 0.6647312762994639, 'tt')
+
+------- Vouchers used -------
+
+CR	norm		0.4229 (6.6000, 1.2543)	-> Distribution assumed normal!
+CR+	norm		0.7546 (7.6667, 1.8856)	-> Distribution assumed normal!
+RTW	norm		0.8142 (7.0667, 1.5261)	-> Distribution assumed normal!
+SR	norm		0.7300 (8.2667, 2.0483)	-> Distribution assumed normal!
+TI	norm		0.7581 (7.4000, 2.4980)	-> Distribution assumed normal!
+
+Best distributions:
+['norm']
+
+Test mean and variance equality:
+CR - SR 	var: 1.5336E-01 (True)		tt-mu: 1.4841E-02	wt-mu: 1.6075E-02 (False)
+CR - TI 	var: 4.9897E-02 (False)		tt-mu: 2.9337E-01	wt-mu: 2.9659E-01 (True)
+
+Test variance results:
+CR ->	('RTW', 0.4454719575324685)
+		('CR+', 0.19402504280889596)
+		('SR', 0.15335733227841783)
+CR+ ->	('SR', 0.7846976455520658)
+		('RTW', 0.49104284099652895)
+		('TI', 0.37274182729582817)
+RTW ->	('SR', 0.3687918147600264)
+		('TI', 0.13208231579950047)
+SR ->	('TI', 0.5549002472938713)
+
+Test mean results:
+CR ->	('RTW', 0.38426453800234706, 'tt')
+		('TI', 0.29659332121393417, 'wt')
+		('CR+', 0.08893277044958978, 'tt')
+CR+ ->	('TI', 0.7522442890257413, 'tt')
+		('SR', 0.4268268624331041, 'tt')
+		('RTW', 0.3626295208693575, 'tt')
+RTW ->	('TI', 0.67331474460957, 'tt')
+		('SR', 0.08970794391695448, 'tt')
+SR ->	('TI', 0.3240593302586676, 'tt')
+
+------- Ratio -------
+
+CR	norm		0.7518 (1.8372, 0.4024)	-> Distribution assumed normal!
+CR+	norm		0.2719 (1.7428, 0.4301)	-> Distribution assumed normal!
+RTW	norm		0.4040 (1.6862, 0.3422)	-> Distribution assumed normal!
+SR	norm		0.8811 (1.5365, 0.2813)	-> Distribution assumed normal!
+TI	norm		0.9971 (1.6525, 0.3540)	-> Distribution assumed normal!
+
+Best distributions:
+['norm']
+
+Test mean and variance equality:
+CR - SR 	var: 3.0239E-01 (True)		tt-mu: 2.9624E-02	wt-mu: 3.0575E-02 (False)
+
+Test variance results:
+CR ->	('CR+', 0.986743390320434)
+		('RTW', 0.9624540376337911)
+		('TI', 0.7328223448471187)
+		('SR', 0.30238505336592736)
+CR+ ->	('RTW', 0.9491732988440226)
+		('TI', 0.7309892623420258)
+		('SR', 0.3187290966480741)
+RTW ->	('TI', 0.7194888939799847)
+		('SR', 0.21944206374468533)
+SR ->	('TI', 0.423430040731387)
+
+Test mean results:
+CR ->	('CR+', 0.553345093687934, 'tt')
+		('RTW', 0.2939167855035884, 'tt')
+		('TI', 0.20776840560753868, 'tt')
+CR+ ->	('RTW', 0.7030690793985543, 'tt')
+		('TI', 0.549195890554117, 'tt')
+		('SR', 0.1442485482942684, 'tt')
+RTW ->	('TI', 0.7998080159449676, 'tt')
+		('SR', 0.21638813269800622, 'tt')
+SR ->	('TI', 0.34507649218175906, 'tt')
+
+------- Local time-diff (log10) -------
+
+CR	norm		0.0000 (-1.8985, 0.6087)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0000 (-1.9088, 0.5687)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0000 (-1.0976, 0.7679)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0000 (-0.9647, 0.2991)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0071 (-1.1189, 1.1950)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+['cauchy', 'johnsonsu']
+
+CR	cauchy		5.117474227807284e-06 (False)
+CR	johnsonsu		0.000774414595343063 (False)
+CR+	cauchy		1.4718445671676192e-08 (False)
+CR+	johnsonsu		1.6184901692604047e-06 (False)
+RTW	cauchy		0.8497341069776561
+RTW	johnsonsu		0.9636006813458329
+SR	cauchy		0.00035017708501359747 (False)
+SR	johnsonsu		0.89505252957122
+TI	cauchy		0.0021174309616233318 (False)
+TI	johnsonsu		0.008001435378097745 (False)
+
+Test mean and variance equality:
+CR - RTW 	var: 8.9784E-07 (False)		tt-mu: 4.9658E-45	wt-mu: 1.4141E-43 (False)
+CR - SR 	var: 3.0165E-02 (False)		tt-mu: 4.7033E-106	wt-mu: 1.0418E-96 (False)
+CR - TI 	var: 8.3526E-34 (False)		tt-mu: 2.0747E-26	wt-mu: 2.1393E-26 (False)
+CR+ - RTW 	var: 2.8320E-08 (False)		tt-mu: 5.2512E-48	wt-mu: 5.8872E-46 (False)
+CR+ - SR 	var: 1.1533E-01 (True)		tt-mu: 3.7968E-116	wt-mu: 2.1781E-106 (False)
+CR+ - TI 	var: 5.0429E-37 (False)		tt-mu: 1.4428E-27	wt-mu: 1.6354E-27 (False)
+RTW - SR 	var: 2.3114E-16 (False)		tt-mu: 2.5075E-03	wt-mu: 3.6762E-03 (False)
+RTW - TI 	var: 8.4821E-15 (False)		tt-mu: 7.8370E-01	wt-mu: 7.7736E-01 (True)
+SR - TI 	var: 1.7678E-52 (False)		tt-mu: 1.7877E-02	wt-mu: 1.6086E-02 (False)
+
+Test variance results:
+CR ->	('CR+', 0.5895539452164105)
+CR+ ->	('SR', 0.11533378569001251)
+
+Test mean results:
+CR ->	('CR+', 0.8156636151163448, 'tt')
+RTW ->	('TI', 0.7773561250371935, 'wt')
+
+------- Web time-diff (log10) -------
+
+CR	norm		0.0053 (0.0678, 0.6241)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0006 (0.0199, 0.6212)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0058 (0.0871, 0.7237)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0000 (0.2340, 0.7453)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0039 (0.2903, 0.6772)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+['gennorm', 't', 'genlogistic', 'johnsonsu']
+
+CR	gennorm		0.025255111594395165 (False)
+CR	t		0.0710052760564213
+CR	genlogistic		0.6627414152811436
+CR	johnsonsu		0.7234164445963754
+CR+	gennorm		0.06586147609917152
+CR+	t		0.04837267339683647 (False)
+CR+	genlogistic		0.6005529960538344
+CR+	johnsonsu		0.4877001285506158
+RTW	gennorm		0.03799528230762256 (False)
+RTW	t		0.11840635544476141
+RTW	genlogistic		0.28119858194951997
+RTW	johnsonsu		0.8167192166860395
+SR	gennorm		0.04652281789149987 (False)
+SR	t		0.03404706232231644 (False)
+SR	genlogistic		0.08435676545096452
+SR	johnsonsu		0.5521930234575798
+TI	gennorm		0.06322479309062064
+TI	t		0.18662340118183135
+TI	genlogistic		0.6822235685048342
+TI	johnsonsu		0.7615331641197779
+
+Test mean and variance equality:
+CR - SR 	var: 5.4329E-02 (True)		tt-mu: 1.7932E-03	wt-mu: 1.6844E-03 (False)
+CR - TI 	var: 1.9698E-01 (True)		tt-mu: 1.3197E-05	wt-mu: 1.2983E-05 (False)
+CR+ - SR 	var: 6.3619E-02 (True)		tt-mu: 4.2261E-05	wt-mu: 4.2025E-05 (False)
+CR+ - TI 	var: 2.3326E-01 (True)		tt-mu: 7.5894E-08	wt-mu: 8.0316E-08 (False)
+RTW - SR 	var: 9.1005E-01 (True)		tt-mu: 1.0566E-02	wt-mu: 1.0435E-02 (False)
+RTW - TI 	var: 5.5333E-01 (True)		tt-mu: 2.4973E-04	wt-mu: 2.5860E-04 (False)
+
+Test variance results:
+CR ->	('CR+', 0.8884197897789472)
+		('TI', 0.19698326146706574)
+		('RTW', 0.06894001299654705)
+		('SR', 0.05432936660546284)
+CR+ ->	('TI', 0.23325584442369787)
+		('RTW', 0.08103347717052038)
+		('SR', 0.06361889878333075)
+RTW ->	('SR', 0.9100528939893352)
+		('TI', 0.5533316364266017)
+SR ->	('TI', 0.4780277213783346)
+
+Test mean results:
+CR ->	('RTW', 0.7176567220913388, 'tt')
+		('CR+', 0.3185986653129314, 'tt')
+CR+ ->	('RTW', 0.200242784708507, 'tt')
+SR ->	('TI', 0.30259970358111304, 'tt')
+
+------- App time-diff (log10) -------
+
+CR	norm		0.0001 (0.1030, 0.6059)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0000 (0.0745, 0.6160)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0000 (0.1199, 0.7518)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0002 (0.3068, 0.5800)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0000 (0.4045, 0.7694)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+['t', 'genlogistic', 'johnsonsu', 'laplace']
+
+CR	t		0.5407938936597995
+CR	genlogistic		0.24009452836030482
+CR	johnsonsu		0.7758696682669255
+CR	laplace		0.11012049977483512
+CR+	t		0.11129808019687848
+CR+	genlogistic		0.6005768313070088
+CR+	johnsonsu		0.9716601841811193
+CR+	laplace		0.045462438997469636 (False)
+RTW	t		0.20283527288872225
+RTW	genlogistic		0.1515972062774561
+RTW	johnsonsu		0.9693587522058094
+RTW	laplace		0.010024151582595828 (False)
+SR	t		0.6897902761832243
+SR	genlogistic		0.6597714924328841
+SR	johnsonsu		0.9999926449905426
+SR	laplace		0.40387862019285903
+TI	t		0.7687310862585458
+TI	genlogistic		0.12512661591136803
+TI	johnsonsu		0.9915012196716972
+TI	laplace		0.14210028379795867
+
+Test mean and variance equality:
+CR - RTW 	var: 4.3913E-02 (False)		tt-mu: 7.4595E-01	wt-mu: 7.4862E-01 (True)
+CR - SR 	var: 4.4073E-01 (True)		tt-mu: 4.9107E-06	wt-mu: 4.9122E-06 (False)
+CR - TI 	var: 1.5217E-01 (True)		tt-mu: 7.2773E-09	wt-mu: 6.8721E-09 (False)
+CR+ - SR 	var: 4.1046E-01 (True)		tt-mu: 2.6236E-07	wt-mu: 2.6322E-07 (False)
+CR+ - TI 	var: 1.7847E-01 (True)		tt-mu: 3.5430E-10	wt-mu: 3.2927E-10 (False)
+RTW - SR 	var: 7.2074E-03 (False)		tt-mu: 2.7479E-04	wt-mu: 3.3168E-04 (False)
+RTW - TI 	var: 6.2185E-01 (True)		tt-mu: 1.1868E-06	wt-mu: 1.1499E-06 (False)
+SR - TI 	var: 3.6677E-02 (False)		tt-mu: 5.4368E-02	wt-mu: 5.3757E-02 (True)
+
+Test variance results:
+CR ->	('CR+', 0.9431664009887473)
+		('SR', 0.44072759092112745)
+		('TI', 0.15217245462382453)
+CR+ ->	('SR', 0.41046183095052413)
+		('TI', 0.17847303455087438)
+		('RTW', 0.05582919204037613)
+RTW ->	('TI', 0.6218498251745677)
+
+Test mean results:
+CR ->	('RTW', 0.7486184196615873, 'wt')
+		('CR+', 0.5324290988943503, 'tt')
+CR+ ->	('RTW', 0.38727605304295654, 'tt')
+SR ->	('TI', 0.05375728873324394, 'wt')
+
+------- Diff time-diff (log10) -------
+
+CR	norm		0.9273 (0.7843, 0.3204)	-> Distribution assumed normal!
+CR+	norm		0.3968 (0.5568, 0.2049)	-> Distribution assumed normal!
+RTW	norm		0.9632 (0.7536, 0.2778)	-> Distribution assumed normal!
+SR	norm		0.0385 (0.9505, 0.6254)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.1716 (1.2418, 0.8144)	-> Distribution assumed normal!
+
+Best distributions:
+[]
+
+Test mean and variance equality:
+CR - CR+ 	var: 2.2281E-02 (False)		tt-mu: 3.3373E-02	wt-mu: 3.4862E-02 (False)
+CR+ - RTW 	var: 1.4034E-01 (True)		tt-mu: 4.1822E-02	wt-mu: 4.2617E-02 (False)
+CR+ - SR 	var: 2.2372E-01 (True)		tt-mu: 3.3340E-02	wt-mu: 3.8904E-02 (False)
+CR+ - TI 	var: 2.3487E-02 (False)		tt-mu: 4.9331E-03	wt-mu: 7.7038E-03 (False)
+RTW - TI 	var: 6.7990E-02 (True)		tt-mu: 4.2702E-02	wt-mu: 4.8517E-02 (False)
+
+Test variance results:
+CR ->	('SR', 0.7934817680775841)
+		('RTW', 0.41391859380670415)
+		('TI', 0.11421392613682874)
+CR+ ->	('SR', 0.22371986414250253)
+		('RTW', 0.14034112627912151)
+RTW ->	('SR', 0.5458763331019612)
+		('TI', 0.06799003370113378)
+SR ->	('TI', 0.2553732313955645)
+
+Test mean results:
+CR ->	('RTW', 0.7884224575493752, 'tt')
+		('SR', 0.3837225195418368, 'tt')
+		('TI', 0.060471912924150016, 'tt')
+RTW ->	('SR', 0.2908222914006082, 'tt')
+SR ->	('TI', 0.2974423258067173, 'tt')
+
+---------------------------
+------------ r ------------
+---------------------------
+
+
+------- Success codes -------
+
+CR	norm		0.5777 (13.0400, 1.7083)	-> Distribution assumed normal!
+CR+	norm		0.0668 (12.4800, 2.1931)	-> Distribution assumed normal!
+RTW	norm		0.1557 (13.6800, 1.5677)	-> Distribution assumed normal!
+SR	norm		0.4958 (13.0800, 1.5728)	-> Distribution assumed normal!
+TI	norm		0.5685 (13.7200, 1.6129)	-> Distribution assumed normal!
+
+Best distributions:
+['norm']
+
+Test mean and variance equality:
+CR+ - RTW 	var: 1.0000E+00 (True)		tt-mu: 3.4135E-02	wt-mu: 3.4662E-02 (False)
+CR+ - TI 	var: 7.1847E-01 (True)		tt-mu: 3.0358E-02	wt-mu: 3.0785E-02 (False)
+
+Test variance results:
+CR ->	('SR', 0.8960074265271347)
+		('CR+', 0.8631762452313784)
+		('RTW', 0.8206756658884433)
+		('TI', 0.7980416428759278)
+CR+ ->	('RTW', 1.0)
+		('SR', 0.7846361492886272)
+		('TI', 0.7184667220910392)
+RTW ->	('SR', 0.7069386670697)
+		('TI', 0.6231693718210379)
+SR ->	('TI', 0.8838178790666643)
+
+Test mean results:
+CR ->	('SR', 0.9330973991918868, 'tt')
+		('CR+', 0.32865488313576274, 'tt')
+		('RTW', 0.18263334327333847, 'tt')
+		('TI', 0.16268011198831825, 'tt')
+CR+ ->	('SR', 0.2815170387399186, 'tt')
+RTW ->	('TI', 0.9309374768334633, 'tt')
+		('SR', 0.19188169810641054, 'tt')
+SR ->	('TI', 0.17041633335472844, 'tt')
+
+------- Vouchers used -------
+
+CR	norm		0.0374 (5.9600, 1.1128)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.1486 (5.8400, 1.6415)	-> Distribution assumed normal!
+RTW	norm		0.5197 (7.2400, 1.7727)	-> Distribution assumed normal!
+SR	norm		0.1205 (6.7600, 1.7270)	-> Distribution assumed normal!
+TI	norm		0.5565 (6.4400, 1.8564)	-> Distribution assumed normal!
+
+Best distributions:
+[]
+
+Test mean and variance equality:
+CR - RTW 	var: 1.6259E-02 (False)		tt-mu: 4.3193E-03	wt-mu: 4.6597E-03 (False)
+CR - TI 	var: 1.9022E-02 (False)		tt-mu: 2.8272E-01	wt-mu: 2.8391E-01 (True)
+CR+ - RTW 	var: 4.5219E-01 (True)		tt-mu: 6.6182E-03	wt-mu: 6.6316E-03 (False)
+
+Test variance results:
+CR ->	('CR+', 0.12851875119085307)
+		('SR', 0.08789966357348582)
+CR+ ->	('SR', 0.7398184521715057)
+		('RTW', 0.4521941168287259)
+		('TI', 0.4105023283658341)
+RTW ->	('TI', 0.9033346772924992)
+		('SR', 0.7333771314251026)
+SR ->	('TI', 0.6664865819661215)
+
+Test mean results:
+CR ->	('CR+', 0.768173424430367, 'tt')
+		('TI', 0.283912316288039, 'wt')
+		('SR', 0.06242921227920144, 'tt')
+CR+ ->	('TI', 0.24139624270330048, 'tt')
+		('SR', 0.06457879714046927, 'tt')
+RTW ->	('SR', 0.3467862155626491, 'tt')
+		('TI', 0.1333648821970991, 'tt')
+SR ->	('TI', 0.5393086027900291, 'tt')
+
+------- Ratio -------
+
+CR	norm		0.7019 (2.2545, 0.4436)	-> Distribution assumed normal!
+CR+	norm		0.8155 (2.2264, 0.5127)	-> Distribution assumed normal!
+RTW	norm		0.6760 (1.9786, 0.4383)	-> Distribution assumed normal!
+SR	norm		0.4581 (2.0596, 0.5671)	-> Distribution assumed normal!
+TI	norm		0.1864 (2.2689, 0.5703)	-> Distribution assumed normal!
+
+Best distributions:
+['norm']
+
+Test mean and variance equality:
+CR - RTW 	var: 8.4409E-01 (True)		tt-mu: 3.5182E-02	wt-mu: 3.5183E-02 (False)
+
+Test variance results:
+CR ->	('RTW', 0.8440857220835608)
+		('TI', 0.5428153626408609)
+		('CR+', 0.3320852556483763)
+		('SR', 0.26388266446877195)
+CR+ ->	('TI', 0.8610855263520987)
+		('SR', 0.7588395504690145)
+		('RTW', 0.2603040094324848)
+RTW ->	('TI', 0.4517570933507825)
+		('SR', 0.2113875972604788)
+SR ->	('TI', 0.6776438383336951)
+
+Test mean results:
+CR ->	('TI', 0.9228637894435304, 'tt')
+		('CR+', 0.8398915248322439, 'tt')
+		('SR', 0.1910558827648452, 'tt')
+CR+ ->	('TI', 0.7873245209287012, 'tt')
+		('SR', 0.29048049233933404, 'tt')
+		('RTW', 0.07816071033966215, 'tt')
+RTW ->	('SR', 0.5822522222767443, 'tt')
+		('TI', 0.053775474452127645, 'tt')
+SR ->	('TI', 0.20854473255028083, 'tt')
+
+------- Local time-diff (log10) -------
+
+CR	norm		0.0000 (-1.8900, 1.0812)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0000 (-1.9047, 1.0452)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0000 (-1.9268, 1.0499)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0000 (-1.4535, 1.2612)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0000 (-0.3653, 1.7637)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+[]
+
+Test mean and variance equality:
+CR - SR 	var: 1.0465E-07 (False)		tt-mu: 5.9980E-11	wt-mu: 8.2896E-11 (False)
+CR - TI 	var: 2.0043E-09 (False)		tt-mu: 9.1647E-69	wt-mu: 1.7970E-64 (False)
+CR+ - SR 	var: 9.7106E-09 (False)		tt-mu: 2.1301E-11	wt-mu: 2.2572E-11 (False)
+CR+ - TI 	var: 7.6504E-10 (False)		tt-mu: 3.6418E-67	wt-mu: 2.8254E-65 (False)
+RTW - SR 	var: 8.7578E-08 (False)		tt-mu: 2.8316E-12	wt-mu: 2.8795E-12 (False)
+RTW - TI 	var: 4.4741E-09 (False)		tt-mu: 3.1801E-68	wt-mu: 1.2687E-66 (False)
+SR - TI 	var: 2.0947E-02 (False)		tt-mu: 8.7337E-33	wt-mu: 1.2347E-32 (False)
+
+Test variance results:
+CR ->	('RTW', 0.9879391980494682)
+		('CR+', 0.6174022873870274)
+CR+ ->	('RTW', 0.6260779690709106)
+
+Test mean results:
+CR ->	('CR+', 0.8069081874889091, 'tt')
+		('RTW', 0.5412827023093371, 'tt')
+CR+ ->	('RTW', 0.7137549059595077, 'tt')
+
+------- Web time-diff (log10) -------
+
+CR	norm		0.0000 (-0.0167, 0.6288)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0000 (-0.0246, 0.5748)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0000 (-0.0797, 0.6238)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0000 (-0.0338, 0.6522)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0000 (-0.0484, 0.5972)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+['t', 'laplace', 'genlogistic', 'gennorm', 'johnsonsu', 'cauchy']
+
+CR	t		0.007048833062189601 (False)
+CR	laplace		0.0033441135072144294 (False)
+CR	genlogistic		0.03187718597527503 (False)
+CR	gennorm		0.005801784906255021 (False)
+CR	johnsonsu		0.10344149506316909
+CR	cauchy		0.0007385924763378432 (False)
+CR+	t		0.0022193316640750226 (False)
+CR+	laplace		1.573107916536808e-05 (False)
+CR+	genlogistic		0.025344953176681045 (False)
+CR+	gennorm		8.889948456836184e-09 (False)
+CR+	johnsonsu		0.1890661058829338
+CR+	cauchy		0.00010203260908141747 (False)
+RTW	t		9.205567846732124e-05 (False)
+RTW	laplace		1.654449923700172e-05 (False)
+RTW	genlogistic		0.009081802064858495 (False)
+RTW	gennorm		1.3401379499446187e-05 (False)
+RTW	johnsonsu		0.018361079944254847 (False)
+RTW	cauchy		1.076226418740796e-05 (False)
+SR	t		0.00300481780092486 (False)
+SR	laplace		0.0002562499121600808 (False)
+SR	genlogistic		0.022080580828381803 (False)
+SR	gennorm		0.00030317904445995394 (False)
+SR	johnsonsu		0.10558645453190176
+SR	cauchy		0.0002714632037173923 (False)
+TI	t		0.002541483472425799 (False)
+TI	laplace		0.0011354867792737046 (False)
+TI	genlogistic		0.11430668601871058
+TI	gennorm		0.0010688578617554171 (False)
+TI	johnsonsu		0.12163926484919282
+TI	cauchy		1.5482386461918922e-05 (False)
+
+Test mean and variance equality:
+	All mean and vars match!
+
+Test variance results:
+CR ->	('TI', 0.899234482903539)
+		('SR', 0.865833408231888)
+		('RTW', 0.6853671580752874)
+		('CR+', 0.1940826693055022)
+CR+ ->	('TI', 0.21967944698053676)
+		('SR', 0.1520421798268079)
+		('RTW', 0.08546152520458497)
+RTW ->	('SR', 0.8227554610837086)
+		('TI', 0.5823310683138743)
+SR ->	('TI', 0.764986550223641)
+
+Test mean results:
+CR ->	('CR+', 0.8300216222029235, 'tt')
+		('SR', 0.6576605581798884, 'tt')
+		('TI', 0.38832623131430455, 'tt')
+		('RTW', 0.09317436885827199, 'tt')
+CR+ ->	('SR', 0.8056815397209642, 'tt')
+		('TI', 0.5021302126162157, 'tt')
+		('RTW', 0.12907527613918848, 'tt')
+RTW ->	('TI', 0.3876794597312485, 'tt')
+		('SR', 0.22734623737188261, 'tt')
+SR ->	('TI', 0.6952462918107485, 'tt')
+
+------- App time-diff (log10) -------
+
+CR	norm		0.0008 (0.0804, 0.3910)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.3442 (0.0574, 0.3284)	-> Distribution assumed normal!
+RTW	norm		0.1750 (0.0441, 0.3349)	-> Distribution assumed normal!
+SR	norm		0.5786 (0.0704, 0.3181)	-> Distribution assumed normal!
+TI	norm		0.2374 (0.0563, 0.3377)	-> Distribution assumed normal!
+
+Best distributions:
+[]
+
+Test mean and variance equality:
+CR - SR 	var: 9.5346E-03 (False)		tt-mu: 6.2733E-01	wt-mu: 6.2733E-01 (True)
+
+Test variance results:
+CR ->	('RTW', 0.18750192893754253)
+		('TI', 0.10678334239490105)
+		('CR+', 0.06941593337670772)
+CR+ ->	('TI', 0.8401872308934056)
+		('RTW', 0.5570590206121098)
+		('SR', 0.36875167839588874)
+RTW ->	('TI', 0.7107384138749412)
+		('SR', 0.13620145698270297)
+SR ->	('TI', 0.2807307569448179)
+
+Test mean results:
+CR ->	('SR', 0.6273319238732941, 'wt')
+		('CR+', 0.2719927343390693, 'tt')
+		('TI', 0.25239046980538477, 'tt')
+		('RTW', 0.0843657238631339, 'tt')
+CR+ ->	('TI', 0.9524559087694382, 'tt')
+		('RTW', 0.4888883836910184, 'tt')
+		('SR', 0.48741783915343284, 'tt')
+RTW ->	('TI', 0.5315075748134177, 'tt')
+		('SR', 0.16316577092111456, 'tt')
+SR ->	('TI', 0.4548253159531118, 'tt')
+
+------- Diff time-diff (log10) -------
+
+CR	norm		0.9322 (0.4685, 0.2815)	-> Distribution assumed normal!
+CR+	norm		0.8181 (0.3866, 0.1980)	-> Distribution assumed normal!
+RTW	norm		0.9444 (0.2550, 0.1751)	-> Distribution assumed normal!
+SR	norm		0.0026 (0.5630, 0.6739)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.4974 (0.2827, 0.1581)	-> Distribution assumed normal!
+
+Best distributions:
+[]
+
+Test mean and variance equality:
+CR - RTW 	var: 1.5742E-01 (True)		tt-mu: 2.7715E-03	wt-mu: 3.0396E-03 (False)
+CR - TI 	var: 1.1226E-01 (True)		tt-mu: 6.9886E-03	wt-mu: 7.6373E-03 (False)
+CR+ - RTW 	var: 9.9165E-01 (True)		tt-mu: 1.8510E-02	wt-mu: 1.8568E-02 (False)
+RTW - SR 	var: 2.9860E-01 (True)		tt-mu: 3.5216E-02	wt-mu: 3.9135E-02 (False)
+
+Test variance results:
+CR ->	('SR', 0.5957061291614067)
+		('CR+', 0.19057296308738572)
+		('RTW', 0.15742351113878225)
+		('TI', 0.11225588951360042)
+CR+ ->	('RTW', 0.9916471270198344)
+		('TI', 0.8984025757324606)
+		('SR', 0.30254049435229297)
+RTW ->	('TI', 0.861646126947874)
+		('SR', 0.2986043755893861)
+SR ->	('TI', 0.28034267705065674)
+
+Test mean results:
+CR ->	('SR', 0.5289754099143495, 'tt')
+		('CR+', 0.2493999961610857, 'tt')
+CR+ ->	('SR', 0.22445051633858631, 'tt')
+		('TI', 0.05036519362973704, 'tt')
+RTW ->	('TI', 0.5672968425632838, 'tt')
+SR ->	('TI', 0.05303643593159316, 'tt')
+
+---------------------------
+------------ n ------------
+---------------------------
+
+
+------- Success codes -------
+
+CR	norm		0.9600 (16.0667, 2.7921)	-> Distribution assumed normal!
+CR+	norm		0.8473 (13.0667, 2.5682)	-> Distribution assumed normal!
+RTW	norm		0.9028 (15.4000, 3.6111)	-> Distribution assumed normal!
+SR	norm		0.6632 (12.8667, 2.2764)	-> Distribution assumed normal!
+TI	norm		0.3508 (13.2667, 2.2050)	-> Distribution assumed normal!
+
+Best distributions:
+['norm']
+
+Test mean and variance equality:
+CR - CR+ 	var: 5.5640E-01 (True)		tt-mu: 6.2162E-03	wt-mu: 6.2417E-03 (False)
+CR - SR 	var: 6.6372E-01 (True)		tt-mu: 2.4855E-03	wt-mu: 2.5700E-03 (False)
+CR - TI 	var: 3.1758E-01 (True)		tt-mu: 6.4377E-03	wt-mu: 6.6397E-03 (False)
+RTW - SR 	var: 7.2268E-02 (True)		tt-mu: 3.4649E-02	wt-mu: 3.6244E-02 (False)
+RTW - TI 	var: 2.7554E-02 (False)		tt-mu: 6.9631E-02	wt-mu: 7.1817E-02 (True)
+
+Test variance results:
+CR ->	('SR', 0.6637190210060501)
+		('CR+', 0.5563974907054856)
+		('TI', 0.31758235508193167)
+		('RTW', 0.1830186869728725)
+CR+ ->	('SR', 0.8339053328319782)
+		('TI', 0.696469590676577)
+		('RTW', 0.06867456677129759)
+RTW ->	('SR', 0.07226812610046868)
+SR ->	('TI', 0.5187376121437347)
+
+Test mean results:
+CR ->	('RTW', 0.5890681732049103, 'tt')
+CR+ ->	('SR', 0.8289691005011828, 'tt')
+		('TI', 0.8266366576500881, 'tt')
+		('RTW', 0.05877285763950482, 'tt')
+RTW ->	('TI', 0.07181706099474866, 'wt')
+SR ->	('TI', 0.6404167200344697, 'tt')
+
+------- Vouchers used -------
+
+CR	norm		0.7244 (12.9333, 3.6962)	-> Distribution assumed normal!
+CR+	norm		0.6269 (10.0000, 3.4641)	-> Distribution assumed normal!
+RTW	norm		0.9475 (13.0667, 3.6234)	-> Distribution assumed normal!
+SR	norm		0.6927 (9.0667, 2.9993)	-> Distribution assumed normal!
+TI	norm		0.5218 (9.6000, 1.8903)	-> Distribution assumed normal!
+
+Best distributions:
+['norm']
+
+Test mean and variance equality:
+CR - CR+ 	var: 9.4423E-01 (True)		tt-mu: 3.8929E-02	wt-mu: 3.8966E-02 (False)
+CR - SR 	var: 6.5625E-01 (True)		tt-mu: 5.0941E-03	wt-mu: 5.2329E-03 (False)
+CR - TI 	var: 1.8163E-01 (True)		tt-mu: 5.5592E-03	wt-mu: 6.7915E-03 (False)
+CR+ - RTW 	var: 5.3670E-01 (True)		tt-mu: 2.9828E-02	wt-mu: 2.9844E-02 (False)
+RTW - SR 	var: 2.8246E-01 (True)		tt-mu: 3.5645E-03	wt-mu: 3.6560E-03 (False)
+RTW - TI 	var: 2.8585E-02 (False)		tt-mu: 3.6376E-03	wt-mu: 4.5544E-03 (False)
+
+Test variance results:
+CR ->	('CR+', 0.9442299854283861)
+		('SR', 0.6562467137645078)
+		('RTW', 0.6106991342434851)
+		('TI', 0.18162508970907457)
+CR+ ->	('SR', 0.6924909606309604)
+		('RTW', 0.5366999715465288)
+		('TI', 0.17312336173110113)
+RTW ->	('SR', 0.28245579141574284)
+SR ->	('TI', 0.3068009528450435)
+
+Test mean results:
+CR ->	('RTW', 0.9239017418450912, 'tt')
+CR+ ->	('TI', 0.7073583265987646, 'tt')
+		('SR', 0.4523466746814492, 'tt')
+SR ->	('TI', 0.577997616154817, 'tt')
+
+------- Ratio -------
+
+CR	norm		0.0265 (1.3829, 0.6235)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0267 (1.4973, 0.7062)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.8893 (1.2042, 0.1663)	-> Distribution assumed normal!
+SR	norm		0.5479 (1.5379, 0.4900)	-> Distribution assumed normal!
+TI	norm		0.6454 (1.4120, 0.2779)	-> Distribution assumed normal!
+
+Best distributions:
+[]
+
+Test mean and variance equality:
+RTW - SR 	var: 5.0053E-02 (True)		tt-mu: 2.2639E-02	wt-mu: 2.7289E-02 (False)
+RTW - TI 	var: 1.7697E-01 (True)		tt-mu: 2.3242E-02	wt-mu: 2.4883E-02 (False)
+
+Test variance results:
+CR ->	('TI', 0.7832738226152458)
+		('CR+', 0.7449074046068893)
+		('SR', 0.6453622028643071)
+		('RTW', 0.4441657484323607)
+CR+ ->	('SR', 0.9666734039994629)
+		('TI', 0.5081049186247025)
+		('RTW', 0.2710325664335641)
+RTW ->	('TI', 0.17697206584620537)
+		('SR', 0.05005336621217983)
+SR ->	('TI', 0.24474386606978)
+
+Test mean results:
+CR ->	('TI', 0.874029608347925, 'tt')
+		('CR+', 0.6528891110213402, 'tt')
+		('SR', 0.47061329508810834, 'tt')
+		('RTW', 0.3091955675565047, 'tt')
+CR+ ->	('SR', 0.8611277103132405, 'tt')
+		('TI', 0.6773975906944889, 'tt')
+		('RTW', 0.14183468809665692, 'tt')
+SR ->	('TI', 0.4104008873230083, 'tt')
+
+------- Local time-diff (log10) -------
+
+CR	norm		0.0000 (-1.8419, 0.4101)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0000 (-1.8377, 0.3919)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0001 (-1.0408, 0.5223)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0000 (-0.8196, 0.3315)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0038 (-1.1454, 1.2622)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+['t', 'johnsonsu']
+
+CR	t		2.092743166339907e-12 (False)
+CR	johnsonsu		0.00012647756402343362 (False)
+CR+	t		2.7565596595575574e-17 (False)
+CR+	johnsonsu		5.4784230592158164e-05 (False)
+RTW	t		0.6586162484436061
+RTW	johnsonsu		0.8248407037370197
+SR	t		0.019398945841173125 (False)
+SR	johnsonsu		0.6952400305187472
+TI	t		0.022825491680044715 (False)
+TI	johnsonsu		0.030048150724053233 (False)
+
+Test mean and variance equality:
+CR - RTW 	var: 4.3623E-04 (False)		tt-mu: 2.5777E-87	wt-mu: 3.1657E-86 (False)
+CR - SR 	var: 2.1895E-01 (True)		tt-mu: 4.6293E-167	wt-mu: 2.4561E-164 (False)
+CR - TI 	var: 3.8629E-32 (False)		tt-mu: 5.2184E-22	wt-mu: 7.8452E-22 (False)
+CR+ - RTW 	var: 7.8822E-06 (False)		tt-mu: 7.5875E-89	wt-mu: 2.7066E-87 (False)
+CR+ - SR 	var: 9.3840E-01 (True)		tt-mu: 9.5409E-172	wt-mu: 6.0523E-170 (False)
+CR+ - TI 	var: 1.5088E-34 (False)		tt-mu: 6.2454E-22	wt-mu: 9.7307E-22 (False)
+RTW - SR 	var: 2.7578E-07 (False)		tt-mu: 2.5482E-11	wt-mu: 2.8934E-11 (False)
+RTW - TI 	var: 1.6774E-23 (False)		tt-mu: 1.4631E-01	wt-mu: 1.4110E-01 (True)
+SR - TI 	var: 8.9914E-37 (False)		tt-mu: 2.6122E-06	wt-mu: 2.0394E-06 (False)
+
+Test variance results:
+CR ->	('CR+', 0.3162839831116195)
+		('SR', 0.2189483182935192)
+CR+ ->	('SR', 0.9384040511539787)
+
+Test mean results:
+CR ->	('CR+', 0.8883252680307369, 'tt')
+RTW ->	('TI', 0.14110464739027234, 'wt')
+
+------- Web time-diff (log10) -------
+
+CR	norm		0.0001 (0.2842, 0.6981)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0000 (0.2516, 0.7423)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0000 (0.3389, 0.7917)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0000 (0.2159, 0.7777)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0004 (0.3920, 0.8468)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+['genlogistic', 'johnsonsu']
+
+CR	genlogistic		0.9728540373687863
+CR	johnsonsu		0.8973289829275869
+CR+	genlogistic		0.5762431756335741
+CR+	johnsonsu		0.5073133851264838
+RTW	genlogistic		0.21398725910894978
+RTW	johnsonsu		0.3372934778229842
+SR	genlogistic		0.2325987978911689
+SR	johnsonsu		0.18017825941138305
+TI	genlogistic		0.2231335216788498
+TI	johnsonsu		0.5178515054918158
+
+Test mean and variance equality:
+CR - SR 	var: 4.9305E-02 (False)		tt-mu: 2.2479E-01	wt-mu: 2.2603E-01 (True)
+CR - TI 	var: 4.0062E-02 (False)		tt-mu: 6.4996E-02	wt-mu: 6.4795E-02 (True)
+CR+ - TI 	var: 1.9328E-01 (True)		tt-mu: 2.1823E-02	wt-mu: 2.1154E-02 (False)
+RTW - SR 	var: 3.3354E-01 (True)		tt-mu: 4.1603E-02	wt-mu: 4.1571E-02 (False)
+SR - TI 	var: 8.7497E-01 (True)		tt-mu: 4.5794E-03	wt-mu: 4.4815E-03 (False)
+
+Test variance results:
+CR ->	('CR+', 0.48548926638813883)
+		('RTW', 0.37736389743269416)
+CR+ ->	('RTW', 0.8479027235322643)
+		('SR', 0.23481091905430476)
+		('TI', 0.19327608353314638)
+RTW ->	('SR', 0.3335435952545085)
+		('TI', 0.2757603791573901)
+SR ->	('TI', 0.8749701213146368)
+
+Test mean results:
+CR ->	('CR+', 0.5550746858897582, 'tt')
+		('RTW', 0.3337717406357512, 'tt')
+		('SR', 0.2260291840428201, 'wt')
+		('TI', 0.06479465043265466, 'wt')
+CR+ ->	('SR', 0.5443502714651438, 'tt')
+		('RTW', 0.14149179410108875, 'tt')
+RTW ->	('TI', 0.3933229603087207, 'tt')
+
+------- App time-diff (log10) -------
+
+CR	norm		0.0000 (0.3033, 0.7321)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0000 (0.2785, 0.6797)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0000 (0.3780, 0.7258)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0006 (0.3129, 0.6891)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0000 (0.5734, 0.9304)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+['t', 'johnsonsu']
+
+CR	t		0.042021617699107526 (False)
+CR	johnsonsu		0.7009038141152824
+CR+	t		0.04295061381722064 (False)
+CR+	johnsonsu		0.7211108736685008
+RTW	t		0.2774422161708532
+RTW	johnsonsu		0.6887755755759556
+SR	t		0.24959933100642348
+SR	johnsonsu		0.7125787368286609
+TI	t		0.1494085625796723
+TI	johnsonsu		0.24122564448683978
+
+Test mean and variance equality:
+CR - TI 	var: 3.6099E-02 (False)		tt-mu: 1.4317E-05	wt-mu: 1.2695E-05 (False)
+CR+ - TI 	var: 1.4991E-02 (False)		tt-mu: 1.2085E-06	wt-mu: 1.0028E-06 (False)
+RTW - TI 	var: 3.3686E-02 (False)		tt-mu: 1.5859E-03	wt-mu: 1.4789E-03 (False)
+SR - TI 	var: 2.3427E-02 (False)		tt-mu: 1.8949E-05	wt-mu: 1.6418E-05 (False)
+
+Test variance results:
+CR ->	('RTW', 0.9887804174666669)
+		('SR', 0.9250881797877356)
+		('CR+', 0.7654166905206915)
+CR+ ->	('SR', 0.8270629925760814)
+		('RTW', 0.7741716383803489)
+RTW ->	('SR', 0.9360870779160297)
+
+Test mean results:
+CR ->	('SR', 0.856771401970777, 'tt')
+		('CR+', 0.6389302016173258, 'tt')
+		('RTW', 0.1700944729174995, 'tt')
+CR+ ->	('SR', 0.5017999977536216, 'tt')
+		('RTW', 0.05845407756558844, 'tt')
+RTW ->	('SR', 0.21791936776467488, 'tt')
+/Users/rvanemous/Documents/Afstuderen/Tools/CompuRacer/Tool comparison/process_test_results.py:174: RuntimeWarning: invalid value encountered in log10
+  dataset = [[np.log10(item) for item in data if item] for data in dataset]
+
+------- Diff time-diff (log10) -------
+
+CR	norm		0.8208 (0.3248, 0.2330)	-> Distribution assumed normal!
+CR+	norm		0.7434 (0.6077, 0.2624)	-> Distribution assumed normal!
+RTW	norm		0.4558 (0.5402, 0.2803)	-> Distribution assumed normal!
+SR	norm		0.8760 (0.6199, 0.2421)	-> Distribution assumed normal!
+TI	norm		nan (nan, nan)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+[]
+
+Test mean and variance equality:
+CR - CR+ 	var: 6.3108E-01 (True)		tt-mu: 5.3911E-03	wt-mu: 5.4384E-03 (False)
+CR - RTW 	var: 3.6733E-01 (True)		tt-mu: 3.5367E-02	wt-mu: 3.5654E-02 (False)
+CR - SR 	var: 6.6553E-01 (True)		tt-mu: 2.7325E-03	wt-mu: 2.7358E-03 (False)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/numpy/lib/function_base.py:3405: RuntimeWarning: Invalid value encountered in median
+  r = func(a, **kwargs)
+
+Test variance results:
+CR ->	('SR', 0.6655314247764978)
+		('CR+', 0.6310768211325921)
+		('RTW', 0.3673304497064781)
+CR+ ->	('RTW', 0.7099190282968533)
+		('SR', 0.4235250685302756)
+RTW ->	('SR', 0.24934237118367017)
+
+Test mean results:
+CR+ ->	('SR', 0.8988736529504815, 'tt')
+		('RTW', 0.5158480405541187, 'tt')
+RTW ->	('SR', 0.42713558741505153, 'tt')
+
+---------------------------
+------------ s ------------
+---------------------------
+
+
+
+CR	norm		0.2865 (21.2000, 3.6733)	-> Distribution assumed normal!
+CR+	norm		0.2032 (22.0667, 3.7500)	-> Distribution assumed normal!
+RTW	norm		0.3573 (21.3333, 3.7357)	-> Distribution assumed normal!
+SR	norm		0.7187 (23.2667, 1.3400)	-> Distribution assumed normal!
+TI	norm		0.2488 (21.8667, 2.7536)	-> Distribution assumed normal!
+
+Best distributions:
+['norm']
+
+Test mean and variance equality:
+CR - SR 	var: 9.2260E-03 (False)		tt-mu: 5.7889E-02	wt-mu: 6.3790E-02 (True)
+RTW - SR 	var: 5.5503E-03 (False)		tt-mu: 7.9045E-02	wt-mu: 8.5438E-02 (True)
+
+Test variance results:
+CR ->	('RTW', 0.8864354685936789)
+		('CR+', 0.6527342223942839)
+		('TI', 0.1646439151747751)
+CR+ ->	('RTW', 0.7308855767119408)
+		('TI', 0.3936628725327084)
+		('SR', 0.05012003307381921)
+RTW ->	('TI', 0.1726689700212064)
+SR ->	('TI', 0.18468722441067295)
+
+Test mean results:
+CR ->	('RTW', 0.9248161849492111, 'tt')
+		('TI', 0.5911857936972145, 'tt')
+		('CR+', 0.5417334729810186, 'tt')
+		('SR', 0.06379001165644738, 'wt')
+CR+ ->	('TI', 0.8733665517093758, 'tt')
+		('RTW', 0.6082654346374101, 'tt')
+		('SR', 0.2690925841209332, 'tt')
+RTW ->	('TI', 0.6704914263262042, 'tt')
+		('SR', 0.08543811290209272, 'wt')
+SR ->	('TI', 0.0982193112456999, 'tt')
+
+------- Vouchers used -------
+
+CR	norm		0.3926 (20.1333, 4.8835)	-> Distribution assumed normal!
+CR+	norm		0.0618 (21.0667, 3.9067)	-> Distribution assumed normal!
+RTW	norm		0.3599 (20.2667, 4.7112)	-> Distribution assumed normal!
+SR	norm		0.6303 (22.6667, 1.5348)	-> Distribution assumed normal!
+TI	norm		0.3068 (21.0000, 3.0768)	-> Distribution assumed normal!
+
+Best distributions:
+['norm']
+
+Test mean and variance equality:
+CR - SR 	var: 2.6635E-02 (False)		tt-mu: 7.4643E-02	wt-mu: 8.1793E-02 (True)
+RTW - SR 	var: 6.6864E-03 (False)		tt-mu: 8.0671E-02	wt-mu: 8.7698E-02 (True)
+
+Test variance results:
+CR ->	('RTW', 0.9594667752912306)
+		('CR+', 0.5346254811071681)
+		('TI', 0.25134016527328823)
+CR+ ->	('TI', 0.5522008563811076)
+		('RTW', 0.4457922564111847)
+		('SR', 0.05240310366545864)
+RTW ->	('TI', 0.16637597284225358)
+SR ->	('TI', 0.13735624956177928)
+
+Test mean results:
+CR ->	('RTW', 0.9419138842447004, 'tt')
+		('CR+', 0.5810050126331062, 'tt')
+		('TI', 0.578712579663698, 'tt')
+		('SR', 0.08179269647559462, 'wt')
+CR+ ->	('TI', 0.9603498240466168, 'tt')
+		('RTW', 0.6285919557187516, 'tt')
+		('SR', 0.1648395284885943, 'tt')
+RTW ->	('TI', 0.629604952686114, 'tt')
+		('SR', 0.08769791123666956, 'wt')
+SR ->	('TI', 0.08045719851371846, 'tt')
+
+------- Ratio -------
+
+CR	norm		0.0241 (1.0923, 0.1985)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.4209 (1.0521, 0.0517)	-> Distribution assumed normal!
+RTW	norm		0.0977 (1.0752, 0.1248)	-> Distribution assumed normal!
+SR	norm		0.0209 (1.0278, 0.0367)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.2076 (1.0474, 0.0772)	-> Distribution assumed normal!
+
+Best distributions:
+[]
+
+Test mean and variance equality:
+	All mean and vars match!
+
+Test variance results:
+CR ->	('RTW', 0.6438950349153385)
+		('TI', 0.40310754713844354)
+		('CR+', 0.24899984555076662)
+		('SR', 0.18239435931517986)
+CR+ ->	('TI', 0.4963894686849297)
+		('SR', 0.4659296725727685)
+		('RTW', 0.2618528139215554)
+RTW ->	('TI', 0.5792157215175886)
+		('SR', 0.15095228667388375)
+SR ->	('TI', 0.26143053259936644)
+
+Test mean results:
+CR ->	('RTW', 0.7866676430423303, 'tt')
+		('CR+', 0.46851205641097304, 'tt')
+		('TI', 0.43662748192822, 'tt')
+		('SR', 0.24156923099406777, 'tt')
+CR+ ->	('TI', 0.8531566863597464, 'tt')
+		('RTW', 0.5262890493003397, 'tt')
+		('SR', 0.16318744267845706, 'tt')
+RTW ->	('TI', 0.4842810322231157, 'tt')
+		('SR', 0.1833953498774665, 'tt')
+SR ->	('TI', 0.39787912038565276, 'tt')
+
+------- Local time-diff (log10) -------
+
+CR	norm		0.0000 (-1.8100, 0.3728)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0000 (-1.8954, 0.3309)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0321 (-0.9132, 0.5573)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0000 (-0.9302, 0.2837)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0055 (-1.1904, 1.1838)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+['johnsonsu']
+
+CR	johnsonsu		0.00013248458878862353 (False)
+CR+	johnsonsu		0.00018598468248249512 (False)
+RTW	johnsonsu		0.6642259892359522
+SR	johnsonsu		0.6988177499244251
+TI	johnsonsu		0.0053917438794012775 (False)
+
+Test mean and variance equality:
+CR - CR+ 	var: 6.3307E-03 (False)		tt-mu: 1.2359E-03	wt-mu: 1.2367E-03 (False)
+CR - RTW 	var: 1.2605E-09 (False)		tt-mu: 9.9436E-102	wt-mu: 4.2639E-98 (False)
+CR - SR 	var: 9.4656E-03 (False)		tt-mu: 1.1040E-160	wt-mu: 1.3002E-156 (False)
+CR - TI 	var: 3.2142E-38 (False)		tt-mu: 3.8775E-20	wt-mu: 8.7575E-20 (False)
+CR+ - RTW 	var: 1.2070E-18 (False)		tt-mu: 2.4164E-121	wt-mu: 9.5803E-114 (False)
+CR+ - SR 	var: 6.3310E-01 (True)		tt-mu: 2.2610E-195	wt-mu: 1.8108E-193 (False)
+CR+ - TI 	var: 1.2590E-46 (False)		tt-mu: 1.2656E-25	wt-mu: 7.4490E-25 (False)
+RTW - SR 	var: 2.7433E-20 (False)		tt-mu: 6.0673E-01	wt-mu: 6.0678E-01 (True)
+RTW - TI 	var: 1.0295E-21 (False)		tt-mu: 6.3542E-05	wt-mu: 5.8689E-05 (False)
+SR - TI 	var: 1.1396E-47 (False)		tt-mu: 5.5983E-05	wt-mu: 5.1275E-05 (False)
+
+Test variance results:
+CR+ ->	('SR', 0.6331011245537482)
+
+Test mean results:
+RTW ->	('SR', 0.606784556644594, 'wt')
+
+------- Web time-diff (log10) -------
+
+CR	norm		0.0000 (1.2180, 0.7986)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0000 (1.2186, 0.8173)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0000 (1.2432, 0.7757)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0000 (1.2314, 0.8294)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0000 (1.2153, 0.8292)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+['burr12', 't', 'johnsonsu', 'laplace']
+
+CR	burr12		0.32547363702843635
+CR	t		0.015859452208274644 (False)
+CR	johnsonsu		0.8123389106551944
+CR	laplace		0.0012816878188472236 (False)
+CR+	burr12		0.0026874934207433356 (False)
+CR+	t		0.0020199797166170538 (False)
+CR+	johnsonsu		0.5623223021747531
+CR+	laplace		0.00010122762617659885 (False)
+RTW	burr12		0.08752027216422731
+RTW	t		0.02637056312198199 (False)
+RTW	johnsonsu		0.37749246120888547
+RTW	laplace		0.004602230806560681 (False)
+SR	burr12		0.007502508849534456 (False)
+SR	t		0.003405871016988959 (False)
+SR	johnsonsu		0.9623982677603199
+SR	laplace		0.00016225703231153785 (False)
+TI	burr12		0.032989834993212515 (False)
+TI	t		0.007822707152594916 (False)
+TI	johnsonsu		0.5839813556874128
+TI	laplace		0.00013388439781735544 (False)
+
+Test mean and variance equality:
+	All mean and vars match!
+
+Test variance results:
+CR ->	('CR+', 0.904657227695363)
+		('SR', 0.6646547822029385)
+		('TI', 0.602599347303832)
+		('RTW', 0.5963809397681608)
+CR+ ->	('SR', 0.7586365959650978)
+		('TI', 0.6949322203264475)
+		('RTW', 0.5215141817693799)
+RTW ->	('SR', 0.3350038795887371)
+		('TI', 0.2912795620517106)
+SR ->	('TI', 0.9328201038001966)
+
+Test mean results:
+CR ->	('CR+', 0.991953683097879, 'tt')
+		('TI', 0.9649459169719157, 'tt')
+		('SR', 0.8268322442410314, 'tt')
+		('RTW', 0.6732250051609061, 'tt')
+CR+ ->	('TI', 0.9572039187534106, 'tt')
+		('SR', 0.835759677518696, 'tt')
+		('RTW', 0.6831634269262477, 'tt')
+RTW ->	('SR', 0.8446117914776934, 'tt')
+		('TI', 0.6438363683347348, 'tt')
+SR ->	('TI', 0.794150804297997, 'tt')
+
+------- App time-diff (log10) -------
+
+CR	norm		0.0000 (1.2040, 0.8199)	-> Distribution assumed not-normal! Fitting 39 distributions..
+CR+	norm		0.0000 (1.2200, 0.8501)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		0.0000 (1.2529, 0.7612)	-> Distribution assumed not-normal! Fitting 39 distributions..
+SR	norm		0.0000 (1.2292, 0.8485)	-> Distribution assumed not-normal! Fitting 39 distributions..
+TI	norm		0.0000 (1.2137, 0.8402)	-> Distribution assumed not-normal! Fitting 39 distributions..
+
+Best distributions:
+['burr12', 't', 'genlogistic', 'johnsonsu', 'dgamma']
+
+CR	burr12		0.6315817736087164
+CR	t		0.036429077575634794 (False)
+CR	genlogistic		0.8565556195508989
+CR	johnsonsu		0.7989539069333189
+CR	dgamma		0.003237995199824356 (False)
+CR+	burr12		0.016512927832594382 (False)
+CR+	t		0.004706696086966082 (False)
+CR+	genlogistic		0.29295999378853677
+CR+	johnsonsu		0.7463689609694542
+CR+	dgamma		0.00034161919868999104 (False)
+RTW	burr12		0.267075280656399
+RTW	t		0.03415099410777996 (False)
+RTW	genlogistic		0.5066092071966317
+RTW	johnsonsu		0.48820470116947284
+RTW	dgamma		0.0034973139969302932 (False)
+SR	burr12		0.26089076990876625
+SR	t		0.007372205047448396 (False)
+SR	genlogistic		0.7838816355847166
+SR	johnsonsu		0.9877319356531741
+SR	dgamma		0.00035094992567349915 (False)
+TI	burr12		0.03898404150413891 (False)
+TI	t		0.013174180742020435 (False)
+TI	genlogistic		0.38419374863811206
+TI	johnsonsu		0.3470653954573524
+TI	dgamma		0.00037527202620374193 (False)
+
+Test mean and variance equality:
+/Users/rvanemous/Documents/Afstuderen/Tools/CompuRacer/Tool comparison/process_test_results.py:174: RuntimeWarning: invalid value encountered in log10
+  dataset = [[np.log10(item) for item in data if item] for data in dataset]
+	All mean and vars match!
+
+Test variance results:
+CR ->	('CR+', 0.9957648502700267)
+		('SR', 0.8726356280947424)
+		('TI', 0.6580312458690039)
+		('RTW', 0.4456564322180514)
+CR+ ->	('SR', 0.8812363593637099)
+		('TI', 0.6736984562478455)
+		('RTW', 0.4609150513532795)
+RTW ->	('SR', 0.3653638739621)
+		('TI', 0.2238498465418067)
+SR ->	('TI', 0.7866342388318219)
+
+Test mean results:
+CR ->	('TI', 0.875403316780551, 'tt')
+		('CR+', 0.7971306810094634, 'tt')
+		('SR', 0.6860297592471686, 'tt')
+		('RTW', 0.4083234976934258, 'tt')
+CR+ ->	('TI', 0.9192320330312908, 'tt')
+		('SR', 0.8852196674077584, 'tt')
+		('RTW', 0.5859393972324844, 'tt')
+RTW ->	('SR', 0.6941473170324161, 'tt')
+		('TI', 0.5106653241263268, 'tt')
+SR ->	('TI', 0.8045167466646935, 'tt')
+
+------- Diff time-diff (log10) -------
+
+CR	norm		0.1959 (0.5239, 0.6474)	-> Distribution assumed normal!
+CR+	norm		0.0134 (0.2696, 0.5962)	-> Distribution assumed not-normal! Fitting 39 distributions..
+RTW	norm		nan (nan, nan)	-> Distribution assumed not-normal! Fitting 39 distributions..
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:877: RuntimeWarning: invalid value encountered in greater
+  return (self.a < x) & (x < self.b)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:877: RuntimeWarning: invalid value encountered in less
+  return (self.a < x) & (x < self.b)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:1748: RuntimeWarning: invalid value encountered in greater_equal
+  cond2 = (x >= self.b) & cond0
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/fitter/fitter.py:149: RuntimeWarning: invalid value encountered in greater_equal
+  self._data = self._alldata[np.logical_and(self._alldata >= self._xmin, self._alldata <= self._xmax)]
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/fitter/fitter.py:149: RuntimeWarning: invalid value encountered in less_equal
+  self._data = self._alldata[np.logical_and(self._alldata >= self._xmin, self._alldata <= self._xmax)]
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/numpy/lib/histograms.py:824: RuntimeWarning: invalid value encountered in greater_equal
+  keep = (tmp_a >= first_edge)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/numpy/lib/histograms.py:825: RuntimeWarning: invalid value encountered in less_equal
+  keep &= (tmp_a <= last_edge)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:877: RuntimeWarning: invalid value encountered in greater
+  return (self.a < x) & (x < self.b)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:877: RuntimeWarning: invalid value encountered in less
+  return (self.a < x) & (x < self.b)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:1748: RuntimeWarning: invalid value encountered in greater_equal
+  cond2 = (x >= self.b) & cond0
+SR	norm		0.0067 (0.2283, 0.7638)	-> Distribution assumed not-normal! Fitting 39 distributions..
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:877: RuntimeWarning: invalid value encountered in greater
+  return (self.a < x) & (x < self.b)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:877: RuntimeWarning: invalid value encountered in less
+  return (self.a < x) & (x < self.b)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:1748: RuntimeWarning: invalid value encountered in greater_equal
+  cond2 = (x >= self.b) & cond0
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/fitter/fitter.py:149: RuntimeWarning: invalid value encountered in greater_equal
+  self._data = self._alldata[np.logical_and(self._alldata >= self._xmin, self._alldata <= self._xmax)]
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/fitter/fitter.py:149: RuntimeWarning: invalid value encountered in less_equal
+  self._data = self._alldata[np.logical_and(self._alldata >= self._xmin, self._alldata <= self._xmax)]
+TI	norm		nan (nan, nan)	-> Distribution assumed not-normal! Fitting 39 distributions..
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/numpy/lib/histograms.py:824: RuntimeWarning: invalid value encountered in greater_equal
+  keep = (tmp_a >= first_edge)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/numpy/lib/histograms.py:825: RuntimeWarning: invalid value encountered in less_equal
+  keep &= (tmp_a <= last_edge)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:877: RuntimeWarning: invalid value encountered in greater
+  return (self.a < x) & (x < self.b)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:877: RuntimeWarning: invalid value encountered in less
+  return (self.a < x) & (x < self.b)
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:1748: RuntimeWarning: invalid value encountered in greater_equal
+  cond2 = (x >= self.b) & cond0
+
+Best distributions:
+[]
+
+Test mean and variance equality:
+/Users/rvanemous/RC_tools_sec_tester/lib/python3.7/site-packages/numpy/lib/function_base.py:3405: RuntimeWarning: Invalid value encountered in median
+  r = func(a, **kwargs)
+	All mean and vars match!
+
+Test variance results:
+CR ->	('CR+', 0.21766024346368898)
+		('SR', 0.1985038188058217)
+CR+ ->	('SR', 0.8202600192371429)
+
+Test mean results:
+CR ->	('CR+', 0.28893585028000557, 'tt')
+		('SR', 0.27867519370491894, 'tt')
+CR+ ->	('SR', 0.874253630807482, 'tt')
+
+Process finished with exit code 0

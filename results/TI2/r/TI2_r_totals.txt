@@ -1,0 +1,52 @@
+Test:	TI2_r
+
+Results:	25
+
+Success codes:
+min:	11
+max:	18
+mean:	13.72
+median:	14
+stdev:	1.6462077633154328
+
+Vouchers used:
+min:	4
+max:	11
+mean:	6.44
+median:	6
+stdev:	1.8947295321496416
+
+Ratio (successes / used vouchers):
+min:	1.3636363636363635
+max:	4.0
+mean:	2.268878787878788
+median:	2.142857142857143
+stdev:	0.5820115757862929
+
+Local times (milisec):
+min:	0.0
+max:	12820.322
+mean:	775.9568820598007
+median:	0.276
+stdev:	2639.8708583697744
+
+Web server times (milisec):
+min:	0.021
+max:	17.114
+mean:	1.672647266313933
+median:	1.26
+stdev:	1.7413813875320996
+
+App server times (milisec):
+min:	0.111
+max:	15.84775
+mean:	1.5579108333333334
+median:	1.15925
+stdev:	1.5166561374555014
+
+Diff between web and app server (milisec):
+min:	0.97225
+max:	3.3445
+mean:	2.04394
+median:	1.952
+stdev:	0.7219004154256089

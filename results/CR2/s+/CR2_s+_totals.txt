@@ -1,0 +1,52 @@
+Test:	CR2_s+
+
+Results:	15
+
+Success codes:
+min:	14
+max:	25
+mean:	22.066666666666666
+median:	23
+stdev:	3.8815804341359033
+
+Vouchers used:
+min:	13
+max:	25
+mean:	21.066666666666666
+median:	22
+stdev:	4.043807729403186
+
+Ratio (successes / used vouchers):
+min:	1.0
+max:	1.1666666666666667
+mean:	1.052052633356981
+median:	1.0454545454545454
+stdev:	0.05348040653235803
+
+Local times (milisec):
+min:	0.006
+max:	1.774
+mean:	0.030975
+median:	0.01
+stdev:	0.13745969047025486
+
+Web server times (milisec):
+min:	0.004
+max:	254.394
+mean:	38.40463247863248
+median:	27.208
+stdev:	39.20798314853712
+
+App server times (milisec):
+min:	0.0
+max:	254.757
+mean:	37.45211527777778
+median:	26.682375
+stdev:	37.92208377196385
+
+Diff between web and app server (milisec):
+min:	0.77125
+max:	65.78725
+mean:	7.3901666666666666
+median:	0.93375
+stdev:	17.052601648928057
