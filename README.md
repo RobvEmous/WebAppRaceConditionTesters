@@ -3,3 +3,4 @@ The repository contains a script for evaluating the performance of web app race 
 
 * `gather_test_results.py` is used to test the applications and gather the results. These results are stored in the folder `results`.
 * `process_test_results.py` is used to calculate the statistics of the results as shown in `statistics_output.txt` and the figures in the folder `figures`.
+* `Statistics.pdf` contains the results of the statistical analysis conducted in SPSS.
